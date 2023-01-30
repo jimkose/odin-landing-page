@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  gap: 16px;
+  padding: 16px 112px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
