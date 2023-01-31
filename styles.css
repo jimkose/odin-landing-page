@@ -3,11 +3,14 @@
   padding: 0;
 }
 
-.header {
-  display: flex;
+.hero, .header {
   background-color: #1f2937;
+  display: flex;
+}
+
+.header {
   gap: 16px;
-  padding: 16px 112px;
+  padding: 16px 14% 0;
 }
 
 .logo {
@@ -20,4 +23,40 @@
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.hero {
+  justify-content: space-between;
+  padding: 96px 14%;
+  gap: 36px;
+}
+
+.hero-text, .hero-image {
+  flex-basis: 50%;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 4px 22px;
+  border-radius: 6px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  align-self: center;
 }
